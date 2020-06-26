@@ -1,5 +1,6 @@
 package application.dialogs;
 
+import application.Checkpoint;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -9,7 +10,7 @@ import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 public class DetailsDialog {
-    public static void showDialog(){
+    public static void showDialog(Checkpoint checkpoint){
         Stage stage = new Stage();
 
         GridPane grid = new GridPane();
@@ -17,16 +18,17 @@ public class DetailsDialog {
         grid.setVgap(10);
         grid.setHgap(20);
 
-        Label labelTitle = new Label("Title will be here");
+        Label labelTitle = new Label(checkpoint.getTitle());
         GridPane.setConstraints(labelTitle,0,0);
 
-        Label labelDescription = new Label("Text will be here");
+        Label labelDescription = new Label(checkpoint.getDescription());
         GridPane.setConstraints(labelDescription,0,1);
 
         Button buttonClose = new Button("Close");
         GridPane.setConstraints(buttonClose,0,2);
 
         buttonClose.setOnAction(event -> {
+
             stage.close();
         });
 

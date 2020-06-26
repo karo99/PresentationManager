@@ -1,5 +1,7 @@
 package application.dialogs;
 
+import application.AppPanel;
+import application.Checkpoint;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -40,6 +42,12 @@ public class AddStepDialog {
         box.setAlignment(Pos.CENTER);
 
         buttonAdd.setOnAction(event -> {
+            Checkpoint checkpoint = new Checkpoint(textFieldTitle.getText(),textFieldDescription.getText());
+            //System.out.println(checkpoint.getTitle() + " " + checkpoint.getDescription());
+
+            AppPanel.checkpointList.add(checkpoint);
+            AppPanel.refreshListViewCheckpoints();
+            AppPanel.saveCheckpointToPresentation();
             stage.close();
         });
 

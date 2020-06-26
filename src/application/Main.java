@@ -9,7 +9,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         primaryStage.setTitle("Presentation Manager");
         AppPanel panel = new AppPanel();
-        primaryStage.setScene(panel.createScene());
+        primaryStage.setScene(panel.createScene(primaryStage));
         primaryStage.show();
     }
 
