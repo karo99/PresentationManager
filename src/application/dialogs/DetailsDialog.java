@@ -23,6 +23,7 @@ public class DetailsDialog {
 
         Label labelDescription = new Label(checkpoint.getDescription());
         GridPane.setConstraints(labelDescription,0,1);
+        labelDescription.setWrapText(true);
 
         Button buttonClose = new Button("Close");
         GridPane.setConstraints(buttonClose,0,2);
@@ -36,7 +37,7 @@ public class DetailsDialog {
 
 
 
-        Scene scene = new Scene(grid,200,200);
+        Scene scene = new Scene(grid,300,300);
         stage.setScene(scene);
         stage.showAndWait();
     }

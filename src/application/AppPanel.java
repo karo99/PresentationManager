@@ -90,6 +90,12 @@ public class AppPanel {
             openFiles(stage);
         });
 
+        buttonRemoveStep.setOnAction(event -> {
+
+            checkpointList.remove(listViewTitles.getSelectionModel().getSelectedIndex());
+            refreshListViewCheckpoints();
+        });
+
         listViewFiles.getSelectionModel().selectedItemProperty()
                 .addListener(new ChangeListener<String>() {
                     @Override
