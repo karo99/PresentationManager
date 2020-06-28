@@ -2,6 +2,7 @@ package application;
 
 import application.dialogs.AddStepDialog;
 import application.dialogs.DetailsDialog;
+import application.dialogs.InfoDialog;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.geometry.Insets;
@@ -88,6 +89,10 @@ public class AppPanel {
 
         open.setOnAction(event1 -> {
             openFiles(stage);
+        });
+
+        about.setOnAction(event -> {
+            InfoDialog.showDialog();
         });
 
         buttonRemoveStep.setOnAction(event -> {

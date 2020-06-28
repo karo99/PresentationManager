@@ -55,6 +55,7 @@ public class AddStepDialog {
                 textFieldDescription,box);
 
         Scene scene = new Scene(grid,350,200);
+        stage.setTitle("Add step");
         stage.setScene(scene);
         stage.showAndWait();
     }
