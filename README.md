@@ -9,4 +9,4 @@ To make this app I used Java which I'm constantly learning. It is very important
 The main panel of an app shows us list of files in directory we are actually in, and list of checkpoints we've made for each presentation we are working on.
 <img src="https://user-images.githubusercontent.com/67383292/86048989-a31e2300-ba51-11ea-98c7-43ad6eaa98f0.PNG"></img>
 To start work we have to choose our directory. I've decided to use DirectoryChooser to that task.
-<img src="https://user-images.githubusercontent.com/67383292/86048994-a44f5000-ba51-11ea-8bdc-9e842242b4ee.png"></img>
+<img src="https://user-images.githubusercontent.com/67383292/86048993-a3b6b980-ba51-11ea-9e3b-a393b839700a.png"></img>
