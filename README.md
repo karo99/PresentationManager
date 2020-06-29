@@ -11,7 +11,8 @@ The main panel of an app shows us list of files in directory we are actually in,
 To start work we have to choose our directory. I've decided to use DirectoryChooser to that task.
 <img src="https://user-images.githubusercontent.com/67383292/86048993-a3b6b980-ba51-11ea-9e3b-a393b839700a.png"></img>
 After that, we can add some steps by opening new dialog and filling the form with title of checkpoint and it's descrption.
-<img src="https://user-images.githubusercontent.com/67383292/86048993-a3b6b980-ba51-11ea-9e3b-a393b839700a.png"></img>
+<img src="https://user-images.githubusercontent.com/67383292/86048996-a44f5000-ba51-11ea-8aef-2bbcca68fb3b.png"></img>
 Creating checkpoints is core functionality of our app. Every set of checkpoints is linked to it's presentation. We can explore it, delete ones we don't need and of course add more if we need. 
 <img src="https://user-images.githubusercontent.com/67383292/86048998-a4e7e680-ba51-11ea-934e-e56d1dc6572f.png"></img>
-For better understanding I've prepared Info option, which opens dialog with some information for user.
+For better understanding I've also prepared Info option, which opens dialog with some information for user.
+<img src="https://user-images.githubusercontent.com/67383292/86048999-a5807d00-ba51-11ea-9fb1-6b780facdef6.png"></img>
