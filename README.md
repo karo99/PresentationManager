@@ -16,7 +16,7 @@ To start work we have to choose our directory. I've decided to use DirectoryChoo
 After that, we can add some steps by opening new dialog and filling the form with title of checkpoint and it's description.<p>&nbsp;</p>
 <img src="https://user-images.githubusercontent.com/67383292/86048996-a44f5000-ba51-11ea-8aef-2bbcca68fb3b.png"></img>
 #### Explore checkpoints
-Creating checkpoints is core functionality of our app. Every set of checkpoints is linked to it's presentation. We can explore it, delete ones we don't need and of course add more if we need.
+Creating checkpoints is core functionality of our app. Every set of checkpoints is linked to it's presentation. We can explore it, delete ones we don't need and of course add more if we need.<p>&nbsp;</p>
 <img src="https://user-images.githubusercontent.com/67383292/86048998-a4e7e680-ba51-11ea-934e-e56d1dc6572f.png"></img>
 #### Info
 For better understanding I've also prepared Info option, which opens dialog with some information for user.
